@@ -1,0 +1,546 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/1-home.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: 1525px;
+}
+header nav {
+  display: flex;
+  padding: 30px 120px;
+  justify-content: space-between;
+}
+header nav img {
+  width: 60px;
+  height: 60px;
+}
+header nav .menu {
+  display: flex;
+  gap: 35px;
+  line-height: 60px;
+  font-size: 17px;
+}
+header nav .menu ul {
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+}
+header nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav .menu .menu-btn button {
+  width: 158.23px;
+  height: 47px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+}
+header nav .menu .hamburger-menu {
+  display: none;
+}
+header .main-container {
+  text-align: center;
+  margin-top: 210px;
+}
+header .main-container h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 300;
+  width: 690px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+header .main-container button {
+  width: 189.67px;
+  height: 54px;
+  color: white;
+  background-color: #137547;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.problem-container {
+  height: 130vh;
+  text-align: center;
+  padding: 100px 150px;
+}
+.problem-container h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.problem-container h2 {
+  font-size: 54px;
+  font-weight: 400;
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+.problem-container hr {
+  border: 1.5px solid #137547;
+  width: 90px;
+  margin: 0 auto;
+}
+.problem-container .problem-card {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+.problem-container .problem-card .problem-item img {
+  width: 356.66px;
+  height: 470px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.problem-container .problem-card .problem-item .problem-text {
+  text-align: left;
+  padding-left: 10px;
+}
+.problem-container .problem-card .problem-item .problem-text h3 {
+  font-size: 26px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.problem-container .problem-card .problem-item .problem-text p {
+  font-size: 21px;
+  width: 320px;
+  line-height: 1.75;
+}
+
+.client-container {
+  height: 528px;
+  text-align: center;
+  background-color: #ECF2EF;
+}
+.client-container .client-info {
+  padding-top: 60px;
+}
+.client-container .client-info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.client-container .client-info h4 {
+  padding: 5px 0;
+  font-weight: normal;
+}
+.client-container .client-info .diamonds i {
+  font-size: 11px;
+}
+.client-container p {
+  font-size: 26px;
+  width: 620px;
+  margin: 0 auto;
+  line-height: 1.75;
+  padding: 30px 0;
+}
+.client-container button {
+  width: 254.82px;
+  color: black;
+  border: 2px solid black;
+  background-color: transparent;
+  height: 58px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.about-container {
+  display: flex;
+  gap: 80px;
+  height: 110vh;
+  padding: 100px 150px;
+}
+.about-container .about-left {
+  text-align: center;
+}
+.about-container .about-left img {
+  width: 401.8px;
+  height: 540px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-container .about-left h4 {
+  font-size: 32px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.about-container .about-left .about-left-info h5 {
+  font-size: 17px;
+  font-weight: normal;
+}
+.about-container .about-right h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.about-container .about-right h2 {
+  font-size: 42px;
+  font-weight: 400;
+  width: 550px;
+  letter-spacing: 1px;
+  padding: 30px 0;
+}
+.about-container .about-right p {
+  font-size: 21px;
+  width: 560px;
+  line-height: 1.75;
+}
+.about-container .about-right #about-text-1 {
+  padding: 30px 0;
+}
+.about-container .about-right #about-text-2 {
+  padding: 30px 0;
+}
+.about-container .about-right .about-right-btn #first-btn {
+  width: 220.32px;
+  color: white;
+  border: none;
+  background-color: #137547;
+  height: 58px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.about-container .about-right .about-right-btn #second-btn {
+  margin-left: 20px;
+  width: 216.62px;
+  color: black;
+  border: 2px solid black;
+  background-color: transparent;
+  height: 58px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.contact-container {
+  text-align: center;
+  height: 520px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/contact.jpg);
+  background-size: cover;
+  background-position: 0 610px;
+  color: white;
+  padding: 130px 0;
+}
+.contact-container h1 {
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.contact-container p {
+  font-size: 24px;
+  width: 540px;
+  margin: 0 auto;
+  line-height: 1.75;
+  padding: 25px 0;
+}
+.contact-container button {
+  width: 200.85px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  height: 58px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  padding: 30px 150px;
+  justify-content: space-between;
+  line-height: 70px;
+  font-size: 17px;
+}
+footer ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+footer ul a {
+  text-decoration: none;
+  color: black;
+}
+footer img {
+  height: 60px;
+  width: 60px;
+  margin-left: -80px;
+}
+
+@media only screen and (max-width: 1023px) {
+  header {
+    height: 500px;
+    background-position: 900px 500px;
+    background-size: cover;
+  }
+  header nav {
+    padding: 25px 40px;
+  }
+  header nav .menu ul,
+header nav .menu .menu-btn {
+    display: none;
+  }
+  header nav .menu .hamburger-menu {
+    display: block;
+  }
+  header nav .menu .hamburger-menu i {
+    font-size: 25px;
+    background-color: #137547;
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+    border-radius: 50%;
+  }
+  header .main-container {
+    margin-top: 70px;
+  }
+  header .main-container h1 {
+    font-size: 48px;
+  }
+  header .main-container button {
+    width: 169.07px;
+    height: 48.41px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .problem-container {
+    height: 860px;
+    padding: 80px 30px;
+  }
+  .problem-container h6 {
+    font-size: 15.4px;
+  }
+  .problem-container h2 {
+    font-size: 46px;
+  }
+  .problem-container .problem-card {
+    justify-content: center;
+    gap: 14px;
+  }
+  .problem-container .problem-card .problem-item img {
+    width: 243.34px;
+    height: 350px;
+  }
+  .problem-container .problem-card .problem-item .problem-text h3 {
+    font-size: 24px;
+  }
+  .problem-container .problem-card .problem-item .problem-text p {
+    width: 230px;
+    font-size: 16px;
+  }
+  .about-container {
+    flex-direction: column;
+    height: 1300px;
+    padding: 80px 0;
+  }
+  .about-container .about-left img {
+    width: 450px;
+    height: 430px;
+    -o-object-position: 0 -230px;
+       object-position: 0 -230px;
+  }
+  .about-container .about-left h4,
+.about-container .about-left .about-left-info {
+    display: none;
+  }
+  .about-container .about-right {
+    margin: -50px auto 0;
+  }
+  .about-container .about-right h6 {
+    display: none;
+  }
+  .about-container .about-right h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .about-container .about-right p {
+    font-size: 19.152px;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  footer ul {
+    margin: 0 auto;
+    gap: 40px;
+  }
+  footer ul li {
+    font-size: 14.592px;
+  }
+  footer img {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 1023px) {
+  header {
+    background-position: 720px 0;
+  }
+  header .main-container h1 {
+    font-size: 30px;
+    width: 86%;
+  }
+  .problem-container {
+    height: 2350px;
+    padding: 50px 20px;
+  }
+  .problem-container h6 {
+    font-size: 12px;
+  }
+  .problem-container h2 {
+    font-size: 42px;
+  }
+  .problem-container .problem-card {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .problem-container .problem-card .problem-item img {
+    width: 100%;
+    height: 450px;
+  }
+  .problem-container .problem-card .problem-item .problem-text h3 {
+    font-size: 28px;
+  }
+  .problem-container .problem-card .problem-item .problem-text p {
+    font-size: 19px;
+    width: 89%;
+  }
+  .client-container p {
+    width: 86.6%;
+    font-size: 22px;
+  }
+  .about-container {
+    padding: 80px 20px;
+    height: 1470px;
+  }
+  .about-container .about-left img {
+    width: 100%;
+    height: 360px;
+    -o-object-position: 0 -120px;
+       object-position: 0 -120px;
+  }
+  .about-container .about-right {
+    padding: 0;
+  }
+  .about-container .about-right h2 {
+    font-size: 32px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .about-container .about-right p {
+    font-size: 19px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .about-container .about-right .about-right-btn #first-btn {
+    margin-bottom: 20px;
+    width: 97% !important;
+  }
+  .about-container .about-right .about-right-btn #second-btn {
+    margin-left: 0;
+    width: 97% !important;
+  }
+  .contact-container h1 {
+    font-size: 52px;
+  }
+  .contact-container p {
+    font-size: 22px;
+    width: 87%;
+  }
+  footer {
+    font-size: 16px;
+    gap: 50px;
+    line-height: 1.75;
+    padding: 50px 20px;
+  }
+  footer ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  header {
+    height: 500px;
+    background-position: 0;
+  }
+  header .main-container {
+    margin-top: 60px;
+  }
+  header .main-container h1 {
+    font-size: 48px;
+  }
+  .problem-container {
+    height: 890px;
+  }
+  .problem-container .problem-card {
+    justify-content: center;
+    gap: 0;
+  }
+  .problem-container .problem-card .problem-item img {
+    width: 92%;
+    height: 350px;
+  }
+  .problem-container .problem-card .problem-item .problem-text p {
+    font-size: 16px;
+  }
+  .about-container {
+    flex-direction: column;
+    min-height: 1300px;
+    height: 1400px;
+  }
+  .about-container .about-left img {
+    width: 79%;
+    height: 430px;
+    -o-object-position: 0 -430px;
+       object-position: 0 -430px;
+  }
+  .about-container .about-left h4,
+.about-container .about-left .about-left-info {
+    display: none;
+  }
+  .about-container .about-right h6 {
+    display: none;
+  }
+  .about-container .about-right h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .about-container .about-right p {
+    width: 95%;
+  }
+  .contact-container {
+    height: 422px;
+    background-position: 0px;
+    padding: 50px 0;
+  }
+  footer {
+    padding: 30px 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  header {
+    background-position: 90%;
+  }
+  .problem-container {
+    padding: 100px auto;
+    margin-bottom: 30px;
+  }
+  .about-container {
+    margin-bottom: 30px;
+  }
+}
